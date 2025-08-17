@@ -10,6 +10,20 @@ spring:
       connection-timeout: 30000
       idle-timeout: 60000
       max-lifetime: 570000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,logfile
+  endpoint:
+    health:
+      show-details: always
+logging:
+  file:
+    name: logs/myapp.log
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
 settings:
   integrations:
     youtube:
