@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: youtube-tema-checker
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/youtube_checker
+    username: elsasen
+    password: postgres
+    hikari:
+      connection-timeout: 30000
+      idle-timeout: 60000
+      max-lifetime: 570000
+settings:
+  integrations:
+    youtube:
+      apikey: "AIzaSyARce0wtDnH7vRStwFe2FG1h3iaqZGupcM"
