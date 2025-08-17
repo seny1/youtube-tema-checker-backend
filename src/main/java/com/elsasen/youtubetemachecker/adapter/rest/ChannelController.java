@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://seny-pnz2003.fvds.ru")
 @RestController
 @RequestMapping("/api/channels")
 @RequiredArgsConstructor

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://seny-pnz2003.fvds.ru")
 @RestController
 @RequestMapping("/api/reports")
 @RequiredArgsConstructor
